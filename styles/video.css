@@ -4,6 +4,24 @@
     column-gap: 20px;
     row-gap: 30px;
 }
+
+@media(max-width:750px){
+    .video{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(max-width:350px){
+    .video{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(min-width:950px){
+    .video{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
 .video-preview{
     width: 100%;
     vertical-align: top;

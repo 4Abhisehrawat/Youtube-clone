@@ -8,9 +8,21 @@
 }
 
 .sidebar-icons{
-    width: 25px;
-    display: block;
-    margin-top: 25px;
-    margin-left: 20px;
-    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 74px;
+    cursor: pointer;   
+}
+.sidebar-icons:hover{
+    background-color: rgb(232, 232, 232);
+}
+
+.sidebar-icons img{
+    width: 24px;
+}
+.sidebar div{
+    font-size: 9px;
 }
