@@ -4,5 +4,13 @@
     bottom: 0;
     left: 0;
     width: 64px;
-    background-color: aquamarine;
+    background-color: white;
+}
+
+.sidebar-icons{
+    width: 25px;
+    display: block;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 50px;
 }
